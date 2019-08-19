@@ -1,11 +1,11 @@
 
 # JS-chatting
-
-![screenshot0](./screenshots/screenshot0.png)
-![screenshot1](./screenshots/screenshot1.png)
-![screenshot2](./screenshots/screenshot2.png)
-![screenshot3](./screenshots/screenshot3.png)
-
+<p float="left">
+    <img src="https://github.com/dotorimook/js-chatting/raw/github_master/screenshots/screenshot0.png" width="200"/>
+    <img src="https://github.com/dotorimook/js-chatting/raw/github_master/screenshots/screenshot1.png" width="200"/>
+    <img src="https://github.com/dotorimook/js-chatting/raw/github_master/screenshots/screenshot2.png" width="200"/>
+    <img src="https://github.com/dotorimook/js-chatting/raw/github_master/screenshots/screenshot3.png" width="200"/>
+</p>
 자바스크립트를 이용한 채팅 애플리케이션입니다.
 
 서버와 클라이언트 프로젝트가 폴더로 분리되어있습니다.
