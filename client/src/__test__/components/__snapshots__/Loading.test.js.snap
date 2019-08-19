@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading Test matches snapshot 1`] = `
+<Styled(Styled(styled.div))
+  className="msg-frame visible"
+>
+  <Styled(styled.div) />
+  <img
+    alt="logo"
+    className="title-img loading"
+    src="0.svg"
+  />
+  <div
+    className="msg"
+  >
+    로딩중입니다...
+  </div>
+</Styled(Styled(styled.div))>
+`;

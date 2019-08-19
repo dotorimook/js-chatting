@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Test matches snapshot 1`] = `
+<styled.div>
+  <div
+    className="title-frame"
+  >
+    <h1
+      className="title"
+    >
+      title
+    </h1>
+  </div>
+  <div
+    className="btn-frame"
+  >
+    <Left
+      Left={[Function]}
+      Right={[Function]}
+      title="title"
+    />
+    <div
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <Right
+      Left={[Function]}
+      Right={[Function]}
+      title="title"
+    />
+  </div>
+</styled.div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SendChat Test matches snapshot 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "error": Error {
+        "code": "UNDEFINED",
+        "msg": "알 수 없는 에러",
+        "visible": false,
+      },
+      "loading": Loading {
+        "isLoading": false,
+      },
+      "loginInfo": LoginInfo {
+        "isFirstTry": true,
+      },
+      "screenChatRoom": ChatRoom {
+        "socket": null,
+      },
+      "screenLogin": Login {},
+      "screenRoomList": RoomList {},
+    }
+  }
+>
+  <inject-with-screenChatRoom(SendChat) />
+</ContextProvider>
+`;

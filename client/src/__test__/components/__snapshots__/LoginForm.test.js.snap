@@ -1,0 +1,388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm Test matches snapshot 1`] = `
+<LoginForm
+  onSubmit={[MockFunction]}
+>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-ifAKCX",
+            "isStatic": true,
+            "lastClassName": "gGaOeV",
+            "rules": Array [
+              "
+  ",
+              "
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  
+  -webkit-flex-wrap: nowrap;
+      -moz-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+
+  
+  -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+  
+  -webkit-justify-content: flex-start;
+      -moz-justify-content: flex-start;
+      -ms-justify-content: flex-start;
+          justify-content: flex-start;
+            -ms-flex-pack: flex-start;
+
+  
+  -webkit-align-items: stretch;
+      -moz-align-items: stretch;
+      -ms-align-items: stretch;
+          align-items: stretch;
+
+",
+              ";
+  width:100%;
+  .row {
+    padding-left:1em;
+    padding-right:1em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+  }
+  .row > * {
+    width: 100%;
+  }
+  .error {
+    color: #f00;
+    margin-top:.5em;
+    margin-bottom:.5em;
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-ifAKCX",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-ifAKCX gGaOeV"
+      >
+        <Formik
+          enableReinitialize={false}
+          initialValues={
+            Object {
+              "username": "",
+            }
+          }
+          isInitialValid={false}
+          onSubmit={[MockFunction]}
+          render={[Function]}
+          validateOnBlur={true}
+          validateOnChange={true}
+          validationSchema={
+            ObjectSchema {
+              "_blacklist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_conditions": Array [],
+              "_defaultDefault": [Function],
+              "_deps": Array [],
+              "_excludedEdges": Array [],
+              "_exclusive": Object {},
+              "_mutate": undefined,
+              "_nodes": Array [
+                "username",
+              ],
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "object",
+              "_typeError": [Function],
+              "_whitelist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "fields": Object {
+                "username": StringSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_deps": Array [],
+                  "_exclusive": Object {
+                    "required": true,
+                  },
+                  "_mutate": undefined,
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "string",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "tests": Array [
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                },
+              },
+              "tests": Array [],
+              "transforms": Array [
+                [Function],
+              ],
+            }
+          }
+        >
+          <FormRender
+            dirty={false}
+            errors={Object {}}
+            handleBlur={[Function]}
+            handleChange={[Function]}
+            handleReset={[Function]}
+            handleSubmit={[Function]}
+            initialValues={
+              Object {
+                "username": "",
+              }
+            }
+            isSubmitting={false}
+            isValid={false}
+            isValidating={false}
+            registerField={[Function]}
+            resetForm={[Function]}
+            setError={[Function]}
+            setErrors={[Function]}
+            setFieldError={[Function]}
+            setFieldTouched={[Function]}
+            setFieldValue={[Function]}
+            setFormikState={[Function]}
+            setStatus={[Function]}
+            setSubmitting={[Function]}
+            setTouched={[Function]}
+            setValues={[Function]}
+            submitCount={0}
+            submitForm={[Function]}
+            touched={Object {}}
+            unregisterField={[Function]}
+            validateField={[Function]}
+            validateForm={[Function]}
+            validateOnBlur={true}
+            validateOnChange={true}
+            values={
+              Object {
+                "username": "",
+              }
+            }
+          >
+            <div
+              className="row"
+            >
+              <TextInput
+                name="username"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                placeholder="아이디"
+                type="text"
+                value=""
+              >
+                <styled.input
+                  autoComplete="off"
+                  name="username"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onKeyPress={[Function]}
+                  placeholder="아이디"
+                  type="text"
+                  value=""
+                >
+                  <StyledComponent
+                    autoComplete="off"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bdVaJa",
+                          "isStatic": true,
+                          "lastClassName": "ljTzNA",
+                          "rules": Array [
+                            "
+  font-size:1em;
+  border:none;
+  border-bottom:1px solid #666;
+  padding:1em 1em;
+  &::placeholder {
+    color:",
+                            "#999",
+                            ";
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.input",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bdVaJa",
+                        "target": "input",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    name="username"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onKeyPress={[Function]}
+                    placeholder="아이디"
+                    type="text"
+                    value=""
+                  >
+                    <input
+                      autoComplete="off"
+                      className="sc-bdVaJa ljTzNA"
+                      name="username"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onKeyPress={[Function]}
+                      placeholder="아이디"
+                      type="text"
+                      value=""
+                    />
+                  </StyledComponent>
+                </styled.input>
+              </TextInput>
+            </div>
+            <div
+              className="row row-submit"
+            >
+              <Button
+                className="btn-submit"
+                icon="arrow_forward"
+                onClick={[Function]}
+                type="submit"
+              >
+                <styled.button
+                  className="btn-submit"
+                  icon="arrow_forward"
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  <StyledComponent
+                    className="btn-submit"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bwzfXH",
+                          "isStatic": true,
+                          "lastClassName": "pDbEK",
+                          "rules": Array [
+                            "
+  width: 100%;
+  font-size:1em;
+  border:none;
+  padding: 1em 1em;
+  background-color:transparent;
+
+  .material-icons {
+    vertical-align:bottom;
+    &.left {
+      margin-right:.2em;
+    }
+  }
+  
+  transition: all 0.2s ease;
+  &:hover {
+    background-color:",
+                            "rgba(184, 242, 230, 1)",
+                            "
+  }
+  &:active {
+    transform:translateY(2px);
+  }
+  
+  &[type=submit] {
+    background-color:",
+                            "rgba(184, 242, 230, 1)",
+                            ";
+    &:hover {
+      background-color:",
+                            "rgba(250, 243, 221, 1)",
+                            ";
+    }
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.button",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bwzfXH",
+                        "target": "button",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    icon="arrow_forward"
+                    onClick={[Function]}
+                    type="submit"
+                  >
+                    <button
+                      className="btn-submit sc-bwzfXH pDbEK"
+                      onClick={[Function]}
+                      type="submit"
+                    >
+                      <Icon
+                        className="left"
+                        name="arrow_forward"
+                      >
+                        <span
+                          className="material-icons left"
+                        >
+                          arrow_forward
+                        </span>
+                      </Icon>
+                      로그인
+                    </button>
+                  </StyledComponent>
+                </styled.button>
+              </Button>
+            </div>
+          </FormRender>
+        </Formik>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</LoginForm>
+`;

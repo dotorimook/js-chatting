@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog Test matches snapshot 1`] = `
+<styled.div
+  className="hidden"
+>
+  <div
+    className="dialog-frame"
+  >
+    <Button
+      className="btn-close"
+      onClick={[MockFunction]}
+    >
+      <Icon
+        name="close"
+      />
+    </Button>
+    <div
+      className="test"
+    />
+  </div>
+</styled.div>
+`;

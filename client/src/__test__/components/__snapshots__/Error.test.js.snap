@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Test matches snapshot 1`] = `
+<MobXProvider
+  error={
+    Error {
+      "code": "UNDEFINED",
+      "msg": "error message",
+      "visible": true,
+    }
+  }
+>
+  <inject-with-error(ErrorComponent)>
+    <ErrorComponent
+      error={
+        Error {
+          "code": "UNDEFINED",
+          "msg": "error message",
+          "visible": true,
+        }
+      }
+    >
+      <Styled(Styled(styled.div))
+        className="msg-frame visible"
+      >
+        <StyledComponent
+          className="msg-frame visible"
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-EHOje",
+                "isStatic": true,
+                "lastClassName": "dijeET",
+                "rules": Array [
+                  "
+  width:100%;
+  height:100%;
+  ",
+                  "
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  
+  -webkit-flex-wrap: nowrap;
+      -moz-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+
+  
+  -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+  
+  -webkit-justify-content: flex-start;
+      -moz-justify-content: flex-start;
+      -ms-justify-content: flex-start;
+          justify-content: flex-start;
+            -ms-flex-pack: flex-start;
+
+  
+  -webkit-align-items: stretch;
+      -moz-align-items: stretch;
+      -ms-align-items: stretch;
+          align-items: stretch;
+
+",
+                  ";
+  
+  &.msg-frame {
+    .title-img {
+      width: 50%;
+      display:block;
+      margin: 0 auto;
+    }
+    .msg {
+      margin-top:2em;
+      text-align:center;
+    }
+  }
+",
+                  "
+  ",
+                  "
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  
+  -webkit-flex-wrap: nowrap;
+      -moz-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+
+  
+  -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+  
+  -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+          justify-content: center;
+            -ms-flex-pack: center;
+
+  
+  -webkit-align-items: stretch;
+      -moz-align-items: stretch;
+      -ms-align-items: stretch;
+          align-items: stretch;
+
+",
+                  ";
+",
+                  "
+  position:fixed;
+  background:none;
+  transition: visibility opacity .1s ease;
+  visibility: hidden;
+  ",
+                  "
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  
+  -webkit-flex-wrap: nowrap;
+      -moz-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+
+  
+  -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+  
+  -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+          justify-content: center;
+            -ms-flex-pack: center;
+
+  
+  -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+          align-items: center;
+
+",
+                  ";
+  z-index:99999;
+  opacity: 0;
+  &.visible {
+    visibility: visible;
+    opacity:1;
+  }
+  .msg,.title-img {
+    z-index: 99999;
+  }
+  .msg {
+    p {
+      margin-bottom:2em;
+    }
+  }
+",
+                ],
+              },
+              "displayName": "Styled(Styled(styled.div))",
+              "foldedComponentIds": Array [
+                "sc-bdVaJa",
+                "sc-bwzfXH",
+              ],
+              "render": [Function],
+              "styledComponentId": "sc-EHOje",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="sc-bdVaJa sc-bwzfXH msg-frame visible sc-EHOje dijeET"
+          >
+            <Styled(styled.div)>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bZQynM",
+                      "isStatic": true,
+                      "lastClassName": "cNPsHz",
+                      "rules": Array [
+                        "
+  width:100%;
+  height:100%;
+  ",
+                        "
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  
+  -webkit-flex-wrap: nowrap;
+      -moz-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+
+  
+  -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+  
+  -webkit-justify-content: flex-start;
+      -moz-justify-content: flex-start;
+      -ms-justify-content: flex-start;
+          justify-content: flex-start;
+            -ms-flex-pack: flex-start;
+
+  
+  -webkit-align-items: stretch;
+      -moz-align-items: stretch;
+      -ms-align-items: stretch;
+          align-items: stretch;
+
+",
+                        ";
+  
+  &.msg-frame {
+    .title-img {
+      width: 50%;
+      display:block;
+      margin: 0 auto;
+    }
+    .msg {
+      margin-top:2em;
+      text-align:center;
+    }
+  }
+",
+                        "
+  position:fixed;
+  top:0;
+  left:0;
+  background:",
+                        "rgba(255,255,255,0.95)",
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "Styled(styled.div)",
+                    "foldedComponentIds": Array [
+                      "sc-bdVaJa",
+                    ],
+                    "render": [Function],
+                    "styledComponentId": "sc-bZQynM",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="sc-bdVaJa sc-bZQynM cNPsHz"
+                />
+              </StyledComponent>
+            </Styled(styled.div)>
+            <img
+              alt="logo"
+              className="title-img"
+              src="0.svg"
+            />
+            <div
+              className="msg"
+            >
+              <p>
+                error message
+              </p>
+              <Button
+                className="btn-close"
+                onClick={[Function]}
+              >
+                <styled.button
+                  className="btn-close"
+                  onClick={[Function]}
+                >
+                  <StyledComponent
+                    className="btn-close"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "bZsaUo",
+                          "rules": Array [
+                            "
+  width: 100%;
+  font-size:1em;
+  border:none;
+  padding: 1em 1em;
+  background-color:transparent;
+
+  .material-icons {
+    vertical-align:bottom;
+    &.left {
+      margin-right:.2em;
+    }
+  }
+  
+  transition: all 0.2s ease;
+  &:hover {
+    background-color:",
+                            "rgba(184, 242, 230, 1)",
+                            "
+  }
+  &:active {
+    transform:translateY(2px);
+  }
+  
+  &[type=submit] {
+    background-color:",
+                            "rgba(184, 242, 230, 1)",
+                            ";
+    &:hover {
+      background-color:",
+                            "rgba(250, 243, 221, 1)",
+                            ";
+    }
+  }
+",
+                          ],
+                        },
+                        "displayName": "styled.button",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-ifAKCX",
+                        "target": "button",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    onClick={[Function]}
+                  >
+                    <button
+                      className="btn-close sc-ifAKCX bZsaUo"
+                      onClick={[Function]}
+                    >
+                      알겠습니다.
+                    </button>
+                  </StyledComponent>
+                </styled.button>
+              </Button>
+            </div>
+          </div>
+        </StyledComponent>
+      </Styled(Styled(styled.div))>
+    </ErrorComponent>
+  </inject-with-error(ErrorComponent)>
+</MobXProvider>
+`;
