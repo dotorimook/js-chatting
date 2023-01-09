@@ -5,7 +5,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "formik": "^1.5.8",
-    "luxon": "^1.17.2",
+    "luxon": "^2.5.2",
     "material-icons": "^0.3.1",
     "mobx": "^5.13.0",
     "mobx-react": "^6.1.3",
